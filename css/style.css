@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
+
+body {
+    font-family: "Archivo Narrow", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6D8D41;
+    color: #f2f1e9;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 10%;
+}
+
+h1 a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #2e5e1a;
+
+}
+
+h1 a:hover {
+    color: #B3C235;
+    font-weight: 700;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+p {
+    display: inline-block;
+    color: #9c4421;
+}
+
+section {
+    display: inline-block;
+    padding: 10px 20px;
+    position: relative;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: ease-in-out 0.5s;
+}
+
+section:hover {
+    background: linear-gradient(to right,
+        #0050f0 0%, #0050f0 25%,
+        #ed0000 25%, #ed0000 40%,
+        #ffffff 40%, #ffffff 55%,
+        #ed0000 55%, #ed0000 70%,
+        #ffffff 70%, #ffffff 85%,
+        #ed0000 85%, #ed0000 100%
+    );
+    color: #ffffff;
+    padding: 15px 25px;
+    font-size: 45px;
+    cursor: pointer;
+    text-shadow: 2px 2px 0 #B3C235, -2px 2px 0 #B3C235, 2px -2px 0 #B3C235, -2px -2px 0 #B3C235;
+}
